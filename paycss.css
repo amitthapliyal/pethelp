@@ -1,0 +1,65 @@
+
+/* select all selector  */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* class for div  */
+.cointainer{
+    background-color: aliceblue;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+/* for styling in input type and select / text area is different */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select,
+textarea{width 100%;
+padding: 12px;
+border:1px solid brown;
+border-radius: 10px;
+margin: px;
+}
+
+/* for varialble in field set */
+fieldset{background-color: #fff;
+border: 1px solid#ccc;}
+
+/* text align used for change positon of heading to centre */
+.main_heading{
+    text-align: center;
+}
+
+/* for submit button */
+input[type="submit"]{
+    color: rgb(255, 0, 0);
+    background-color: antiquewhite;
+    padding: 20px 10px;
+    border:none;
+    border-radius: 15px;
+    cursor:pointer;
+    width: 100%;
+    
+}
+
+/* for hover in submit button */
+input[type="submit"]:hover{
+    background-color: aquamarine;
+}
+
+/* for color in home button */
+a{background-color: rgb(186, 186, 201);
+    padding: 5px 10px;
+border: 1px solid black;
+border-radius:  10px;}
